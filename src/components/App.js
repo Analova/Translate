@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LanguageSlector from "./LangaugeSelector";
+import LanguageSlector from "./LanguageSelector";
 import UserCreate from "./UserCreate";
 import { LanguageStore } from "../context/LanguageContext";
 import ColorContext from "../context/ColorContext";
