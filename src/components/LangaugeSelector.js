@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class LangaugeSelector extends Component {
+class LanguageSelector extends Component {
   render() {
     return (
       <div>
@@ -8,11 +8,11 @@ class LangaugeSelector extends Component {
           Select a langaue:
           <i
             className="flag us"
-            onClick={() => this.props.onLangaugeChange("english")}
+            onClick={() => this.props.onLanguageChange("english")}
           />
           <i
             className="flag nl"
-            onClick={() => this.props.onLangaugeChange("dutch")}
+            onClick={() => this.props.onLanguageChange("dutch")}
           />
         </div>
       </div>
@@ -20,4 +20,4 @@ class LangaugeSelector extends Component {
   }
 }
 
-export default LangaugeSelector;
+export default LanguageSelector;
